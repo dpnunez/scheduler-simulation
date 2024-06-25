@@ -7,6 +7,11 @@
     <list default="true" id="d702238b-5acb-48b8-9cab-b8f8ac5a75db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Process/ProcessUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Process/ProcessUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tarefa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +45,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.ExampleTest.executor": "Coverage",
-    "JUnit.SchedulerTest.SFJReverseMultiple.executor": "Run",
-    "JUnit.SchedulerTest.SJFBasic.executor": "Run",
-    "JUnit.SchedulerTest.SchedulerMultipleCPUs.executor": "Run",
-    "JUnit.SchedulerTest.executor": "Run",
-    "JUnit.UtilsTest.executor": "Run",
-    "JUnit.UtilsTest.testWriteProcesses.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/porto/Workspace/projects/scheduling-simulation/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExampleTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.SchedulerTest.SFJReverseMultiple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SchedulerTest.SJFBasic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SchedulerTest.SchedulerMultipleCPUs.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SchedulerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UtilsTest.testWriteProcesses.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/porto/Workspace/projects/scheduling-simulation/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="scheduling-simulation" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/cases/uniforme.txt 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scheduling-simulation" />
       <extension name="coverage">
@@ -145,6 +164,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SchedulerTest" />
       <item itemvalue="JUnit.SchedulerTest.SFJReverseMultiple" />
       <item itemvalue="JUnit.SchedulerTest.SJFBasic" />
@@ -153,11 +173,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.org.example in scheduling-simulation" />
         <item itemvalue="JUnit.SchedulerTest" />
         <item itemvalue="JUnit.SchedulerTest.SFJReverseMultiple" />
         <item itemvalue="JUnit.SchedulerTest.SchedulerMultipleCPUs" />
-        <item itemvalue="JUnit.SchedulerTest.SJFBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +200,7 @@
       <workItem from="1718745867089" duration="300000" />
       <workItem from="1718746174039" duration="253000" />
       <workItem from="1718746654768" duration="13610000" />
+      <workItem from="1719351413308" duration="4488000" />
     </task>
     <servers />
   </component>

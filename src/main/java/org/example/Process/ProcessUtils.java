@@ -31,7 +31,7 @@ public class ProcessUtils {
 
     public static void generateResults(String results, String filepath) {
         try (PrintWriter out = new PrintWriter(filepath)) {
-            out.println(results);
+            out.print(results);
         } catch (IOException e) {
             System.out.println("An error occurred while writing to the file.");
         }

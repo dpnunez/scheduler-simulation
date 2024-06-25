@@ -14,7 +14,7 @@ public class UtilsTest {
     @Test
     public void testReadProcesses() {
         try {
-            String filePath = "src/main/resources/tarefa.txt";
+            String filePath = "src/main/resources/exemplo.txt";
             ArrayList<Process> p = ProcessUtils.readProcesses(filePath);
             assertEquals(9, p.size(), "Should have 9 processes");
 

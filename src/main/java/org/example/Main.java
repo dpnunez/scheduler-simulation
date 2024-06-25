@@ -15,18 +15,25 @@ public class Main {
         if (args.length < 2) {
             throw new IOException("Please provide a file path and number of cpus as arguments");
         }
-
-        String filePath = args[0];
         int cpus = Integer.parseInt(args[1]);
+        String filePath = args[0];
+        String fileName = args[0].split("/")[args[0].split("/").length - 1].split("\\.")[0];
+        String algorithm;
 
-        ArrayList<Process> processes = ProcessUtils.readProcesses(filePath);
+        if (args.length == 3) {
+            algorithm = args[2];
+        } else {
+            algorithm = "SJF";
+        }
 
-        Scheduler schedulingReverse = new SJFReverse(processes, cpus);
-        Scheduler sjf = new SJF(processes, cpus);
+        Scheduler s = switch (algorithm) {
+            case "SJF-REVERSE" -> new SJFReverse(ProcessUtils.readProcesses(filePath), cpus);
+            default -> new SJF(ProcessUtils.readProcesses(filePath), cpus);
+        };
 
 
-        System.out.println("Running SJF");
-        sjf.run();
-        ProcessUtils.generateResults(sjf.getExecutionTimeline());
+        System.out.println("Running " + algorithm + " algorithm");
+        s.run();
+        ProcessUtils.generateResults(s.getExecutionTimeline(), "results_" + fileName + "_" + algorithm + "_" + cpus + ".txt");
     }
 }

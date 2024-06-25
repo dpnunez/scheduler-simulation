@@ -22,6 +22,10 @@ public abstract class Scheduler {
     public String getExecutionTimeline() {
         StringBuilder timeline = new StringBuilder();
         for (CPU cpu : this.cpus) {
+            if (this.cpus.indexOf(cpu) == this.cpus.size() - 1) {
+                timeline.append(cpu.toString());
+                continue;
+            }
             timeline.append(cpu.toString()).append("\n");
         }
         return timeline.toString();

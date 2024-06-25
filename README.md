@@ -45,13 +45,19 @@ scheduler-simulator/
 
 ## Usage
 
-### Building the Project
+### Easy Setup
+Pick a IDE of your choice and import the project as a Maven project. The IDE should automatically download the required dependencies and set up the project.
+
+> *Important*: Make sure that you are passing the 2 required parameters when running the simulator. The first parameter is the path to the input file, and the second parameter is the number of CPUs to simulate.
+
+### Manual Setup
+#### Building the Project
 To build the project, navigate to the project root directory and run:
 ```bash
 mvn clean install
 ```
 
-### Running the Simulator
+#### Running the Simulator
 To run the simulator, use the following command:
 ```bash
 java -cp target/scheduler-simulator-1.0-SNAPSHOT.jar org.example.Main <filepath> <number_of_cpus>

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d702238b-5acb-48b8-9cab-b8f8ac5a75db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Process/ProcessUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Process/ProcessUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tarefa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="scheduling-simulation" />
@@ -201,6 +196,7 @@
       <workItem from="1718746174039" duration="253000" />
       <workItem from="1718746654768" duration="13610000" />
       <workItem from="1719351413308" duration="4488000" />
+      <workItem from="1719427619208" duration="496000" />
     </task>
     <servers />
   </component>

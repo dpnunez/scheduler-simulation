@@ -48,11 +48,14 @@ public abstract class Scheduler {
         return maxTotal;
     }
 
-
-    public void printProcesses() {
+    public CPU getFreeCPU() {
+        CPU lowestTimeCPU = this.cpus.getFirst();
         for (CPU cpu : this.cpus) {
-            System.out.println(cpu);
+            if (cpu.getCurrentTime() < lowestTimeCPU.getCurrentTime()) {
+                lowestTimeCPU = cpu;
+            }
         }
+        return lowestTimeCPU;
     }
 
     public void run() {
@@ -60,22 +63,11 @@ public abstract class Scheduler {
 
         ArrayList<Process> cloneProcesses = new ArrayList<>(this.processes);
 
-        int cpuIndex = 0;
         while(!cloneProcesses.isEmpty()) {
             Process p = cloneProcesses.removeFirst();
-            CPU freeCPU = this.cpus.get(cpuIndex);
-            freeCPU.pushProcess(p);
-
-            cpuIndex = (cpuIndex + 1) % this.cpus.size();
+            CPU freeCPU = this.getFreeCPU();
+            freeCPU.runProcess(p);
         }
-
-        for (CPU cpu : this.cpus) {
-            cpu.runAllProcesses();
-        }
-    }
-
-    public ArrayList<CPU> getCpus() {
-        return cpus;
     }
 
     public abstract void sortProcesses();

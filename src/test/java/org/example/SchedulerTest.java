@@ -63,7 +63,9 @@ public class SchedulerTest {
 
         assertEquals(2, s.getExecutionTimelineMap().get("CPU_1").size());
         assertEquals(2, s.getExecutionTimelineMap().get("CPU_2").size());
-        assertEquals(20, s.getTotalTime());
+        // P1 = 15 + 3
+        // P2 = 10 + 5
+        assertEquals(18, s.getTotalTime());
     }
 
 }

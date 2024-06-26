@@ -3,7 +3,8 @@
 # Directory containing the .txt files
 directory="./src/main/resources/cases"
 
-mvn package
+mvn package 
+
 # Loop through each .txt file in the directory
 for file in "$directory"/*.txt; do
     # Run your command for each file

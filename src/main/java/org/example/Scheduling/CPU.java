@@ -28,8 +28,12 @@ public class CPU {
         return currentTime;
     }
 
-    public void pushProcess(Process process) {
+    public void runProcess(Process process) {
         this.processes.add(process);
+
+        process.setStartTime(this.currentTime);
+        this.currentTime += process.getDuration();
+        process.setEndTime(this.currentTime);
     }
 
     public int getId() {
@@ -38,13 +42,5 @@ public class CPU {
 
     public ArrayList<Process> getProcesses() {
         return processes;
-    }
-
-    public void runAllProcesses() {
-        for (Process process : this.processes) {
-            process.setStartTime(this.currentTime);
-            this.currentTime += process.getDuration();
-            process.setEndTime(this.currentTime);
-        }
     }
 }

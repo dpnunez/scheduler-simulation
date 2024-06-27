@@ -39,3 +39,50 @@ build/
 
 *.txt
 !**/src/main/**/resources/**/*.txt
+
+
+# Arquivos de Configuração Sensíveis
+*.env
+
+# Ambientes Virtuais e Pacotes de Dependências
+venv/
+env/
+node_modules/
+.pipenv/
+
+# Arquivos de Build e Artefatos Compilados
+build/
+dist/
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs e Arquivos Temporários
+*.log
+*~
+*.swp
+*.swo
+
+# Arquivos de Dados Grandes e Binários
+*.zip
+*.rar
+*.gz
+*.tar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.a
+*.lib
+
+# Documentação Gerada e Arquivos de Arte
+docs/generated/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg

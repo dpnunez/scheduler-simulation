@@ -17,6 +17,16 @@ Welcome to the Scheduler Simulator project! This project is a homework assignmen
 - Java Development Kit (JDK) 8 or higher
 - Maven 3.6.0 or higher
 
+## Results
+
+<!-- show .png imagens on the root of the project -->
+
+![First Result](./demorado-muitos.png)
+![Second Result](./demorado-poucos.png)
+![Third Result](./rapido-muitos.png)
+![Fourth Result](./rapido-poucos)
+![Fifth Result](./rapido-poucos-reverso.png)
+
 ## Project Structure
 
 ```

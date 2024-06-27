@@ -12,13 +12,13 @@ for file in "$directory"/*.txt; do
 
     # Add your command here
     java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 2
-    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 2 SJF-REVERSE
+    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 2 LJF
 
     java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 4
-    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 4 SJF-REVERSE
+    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 4 LJF
 
     java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 8
-    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 8 SJF-REVERSE
+    java -cp target/scheduling-simulation-1.0-SNAPSHOT.jar org.example.Main $file 8 LJF
 done
 
 

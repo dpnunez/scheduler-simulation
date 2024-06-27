@@ -43,7 +43,7 @@ public class SchedulerTest {
         processes.add(new Process("P1", 10));
         processes.add(new Process("P2", 5));
 
-        Scheduler s = new SJFReverse(processes, 1);
+        Scheduler s = new LJF(processes, 1);
         s.run();
 
         assertEquals(2, s.getExecutionTimelineMap().get("CPU_1").size());
@@ -58,7 +58,7 @@ public class SchedulerTest {
         processes.add(new Process("P3", 15));
         processes.add(new Process("P4", 3));
 
-        Scheduler s = new SJFReverse(processes, 2);
+        Scheduler s = new LJF(processes, 2);
         s.run();
 
         assertEquals(2, s.getExecutionTimelineMap().get("CPU_1").size());

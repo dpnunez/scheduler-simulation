@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d702238b-5acb-48b8-9cab-b8f8ac5a75db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/felipe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_report.sh" beforeDir="false" afterPath="$PROJECT_DIR$/generate_report.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/curto_dominante.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/curto_dominante.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/curtos_longos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/curtos_longos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/longo_dominante.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/longo_dominante.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/muito_longo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/muito_longo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/pico_curto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/pico_curto.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/pico_extremo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/pico_extremo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/pico_longo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/pico_longo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cases/uniforme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/casesbackup/uniforme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/SJFReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scheduling/LJF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SchedulerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

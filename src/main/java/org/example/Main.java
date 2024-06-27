@@ -1,10 +1,8 @@
 package org.example;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import org.example.Process.*;
-import org.example.Process.Process;
 
 import org.example.Scheduling.*;
 
@@ -27,7 +25,7 @@ public class Main {
         }
 
         Scheduler s = switch (algorithm) {
-            case "SJF-REVERSE" -> new SJFReverse(ProcessUtils.readProcesses(filePath), cpus);
+            case "LJF" -> new LJF(ProcessUtils.readProcesses(filePath), cpus);
             default -> new SJF(ProcessUtils.readProcesses(filePath), cpus);
         };
 

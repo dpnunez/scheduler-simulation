@@ -78,11 +78,3 @@ __pycache__/
 *.apk
 *.a
 *.lib
-
-# Documentação Gerada e Arquivos de Arte
-docs/generated/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg

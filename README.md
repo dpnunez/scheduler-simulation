@@ -24,8 +24,8 @@ Welcome to the Scheduler Simulator project! This project is a homework assignmen
 ![First Result](./demorado-muitos.png)
 ![Second Result](./demorado-poucos.png)
 ![Third Result](./rapido-muitos.png)
-![Fourth Result](./rapido-poucos)
-![Fifth Result](./rapido-poucos-reverso.png)
+![Fourth Result](./rapido-poucos.png)
+![Fifth Result](./misto-curto.png)
 
 ## Project Structure
 

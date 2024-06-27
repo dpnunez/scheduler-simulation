@@ -28,6 +28,11 @@ Welcome to the Scheduler Simulator project! This project is a homework assignmen
 ![Fifth Result](./misto-curto.png)
 ![Sixth Result](./spec-trabalho.png)
 
+
+The results obtained indicate that LJF (Longest Job First) generally performs better (with shorter processing times) compared to SJF (Shortest Job First). SJF only approaches the performance of LJF when there is a very large number of processes.
+
+This makes sense because the ideal scenario is where all processors consume the same amount of time. Therefore, it is easier to achieve this balance by selecting the high-impact processes first and then fine-tuning with the smaller processes.
+
 ## Project Structure
 
 ```
